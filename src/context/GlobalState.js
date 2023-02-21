@@ -34,7 +34,7 @@ export const GlobalProvider = ({ children }) => {
       setLoading(false);
     });
   }
-  }, []);
+  }, );
 
   // Actions
   function deleteTransaction(id) {
